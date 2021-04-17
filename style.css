@@ -15,6 +15,10 @@ body{
 
 
 
+
+
+
+
 .navbar{
     background-color:var(--background-main-color);
     color: var(--light-font);
@@ -107,3 +111,78 @@ img{
     list-style: none;
     padding: 2rem 3rem;
 }
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar li{
+        list-style: none;
+        float: right;
+        padding: .5rem 1rem;
+    }
+
+    .hero{
+        max-width: 80vw;
+        margin: auto;
+    }
+
+    .column{
+        display: inline-block;
+        margin: 0;
+        padding: 0 .2rem;
+    }
+
+    .cards{
+        float: left;
+        width: 8rem;
+        height: 12rem;
+        margin: .5rem;
+        border-radius: 5px;
+        background-color: var(--background-main-color);
+    }
+
+    .cards img{
+        display: block;
+        object-fit: contain;
+        width: 3rem;
+        margin: auto;
+        height: auto;
+    }
+
+    .footer li{
+        float:left;
+        list-style: none;
+        padding: .5rem 1rem;
+    }
+
+    .project-container{
+        display: block;
+        border: 2px solid var(--dark-font);
+        width: 80vw;
+        padding: 2rem 1rem;
+        margin: auto;
+    }
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
