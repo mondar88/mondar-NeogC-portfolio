@@ -87,25 +87,38 @@ img{
     display: block;
     object-fit: contain;
     width: 10rem;
+    padding-top: 1rem;
     margin: auto;
     height: auto;
+    
 }
 
 .cards p{
     display: block;
     width: 12rem;
+    padding: .2rem;
     margin: auto;
-    color: var(--light-font);   
+    color: var(--light-font); 
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 100;  
+   
 }
 
 .project-container{
     display: block;
-    border: 2px solid var(--dark-font);
+    border: 2px solid var(--background-main-color);
+    border-radius: 10px;
     width: 80vw;
-    padding: 5rem 2rem;
+    padding: 2rem 3rem;
     margin: auto;
+    margin-bottom: .5rem;
 }
 
+.project-container img{
+    max-height: 40vh;
+    width: auto;
+}
 .footer{
     background-color: var(--background-main-color);
     overflow:auto;
