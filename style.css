@@ -43,8 +43,53 @@ img{
 .hero h1{
     color:var( --dark-font) ;
 }
+
+.container{
+    display: block;
+}
 .container h2{
     color: #4C4981;
+
+}
+
+.column{
+    display: inline-block;
+    margin: 1rem;
+    padding: 0 2rem;
+}
+
+.cards{
+    float: left;
+    width: 15em;
+    height: 20em;
+    margin: 2rem;
+    border-radius: 5px;
+    background-color: var(--background-main-color);
+}
+
+
+
+.cards img{
+    display: block;
+    object-fit: contain;
+    width: 10rem;
+    margin: auto;
+    height: auto;
+}
+
+.cards p{
+    display: block;
+    width: 12rem;
+    margin: auto;
+    color: var(--light-font);   
+}
+
+.project-container{
+    display: block;
+    border: 2px solid var(--dark-font);
+    width: 80vw;
+    padding: 5rem 2rem;
+    margin: auto;
 }
 
 .footer{
