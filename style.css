@@ -19,6 +19,7 @@ body{
     background-color:var(--background-main-color);
     color: var(--light-font);
     overflow:auto;
+    padding: 0 2rem;
 }
 
 .unnumbered-link{
@@ -29,7 +30,7 @@ body{
 .navbar li{
     list-style: none;
     float: right;
-    padding: 2rem 3rem;
+    padding: .5rem 3rem;
 }
 
 .hero{
@@ -46,6 +47,7 @@ img{
 
 .container{
     display: block;
+    padding: .5rem 2rem;
 }
 .container h2{
     color: #4C4981;
