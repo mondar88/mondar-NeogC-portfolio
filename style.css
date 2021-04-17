@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 
 :root{
     --background-main-color:#9CA3AF;
@@ -11,12 +12,6 @@ body{
     padding: 0%;
     margin: 0%;
 }
-
-
-
-
-
-
 
 
 .navbar{
@@ -35,11 +30,18 @@ body{
     list-style: none;
     float: right;
     padding: .5rem 3rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
 }
 
 .hero{
     max-width: 40vw;
+    padding: 2rem .5rem;
     margin: auto;
+}
+
+.hero h1{
+    font-family: 'Fira Sans', sans-serif;
 }
 
 img{
@@ -55,13 +57,19 @@ img{
 }
 .container h2{
     color: #4C4981;
+    font-size: 2em;
 
+}
+
+.tech{
+    margin: 1rem;
+    padding: 0;
 }
 
 .column{
     display: inline-block;
-    margin: 1rem;
-    padding: 0 2rem;
+    margin: .2rem;
+    padding: 0 .5rem;
 }
 
 .cards{
