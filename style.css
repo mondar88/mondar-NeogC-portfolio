@@ -109,8 +109,9 @@ img{
     display: block;
     border: 2px solid var(--background-main-color);
     border-radius: 10px;
-    width: 80vw;
+    max-width: 60vw;
     padding: 2rem 3rem;
+    align-items: center;
     margin: auto;
     margin-bottom: .5rem;
 }
@@ -118,7 +119,25 @@ img{
 .project-container img{
     max-height: 40vh;
     width: auto;
+    align-items: center;
 }
+
+.btn{
+    
+    background-color: var(--light-font);
+    border: 1px solid var(--background-main-color);
+    border-radius: 5px;
+    padding: .2rem 1rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200; 
+   font-size: 1rem;
+}
+.btn img{
+    height: 1.5rem ;
+    width: auto;
+}
+
+
 .footer{
     background-color: var(--background-main-color);
     overflow:auto;
