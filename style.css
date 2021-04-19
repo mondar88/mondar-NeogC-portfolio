@@ -75,6 +75,7 @@ img{
 
 .featured h5{
     margin: 1rem;
+    font-family: 'Fira Sans', sans-serif;
     
 }
 
@@ -89,6 +90,7 @@ img{
     
     margin-left: 8rem;
     width: 16rem;
+    
 }
 .quotes img{
     height: 2rem;
@@ -108,12 +110,20 @@ img{
 
 
 .bloglist{
-  margin-left: .5rem;
+  margin: 1.5rem .5rem;
 }
 
 .bloglist h2{
-    font-size: 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
     font-weight: 200;
+    margin: 0;
+    padding: .1rem .5rem;
+}
+
+.bloglist p{
+    margin: .1rem .5rem;
+    
 }
 
 .container{
