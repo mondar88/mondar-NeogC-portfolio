@@ -54,7 +54,7 @@ img{
 
 .blog{
     max-width: 80vw;
-    height: 60vh;
+    height: 70vh;
     padding: 2rem .5rem;
     display: block;
     justify-content: center;
@@ -66,10 +66,33 @@ img{
 .featured{
     background-color: var(--background-main-color);
     float: left;
+    
     width: 40vw;
    overflow: auto;
    height: 100%;
    border-radius: 10px 0 0 10px;
+}
+
+.featured h5{
+    margin: 1rem;
+    
+}
+
+.featured h2{
+    margin: 2rem;
+    font-family:'Montserrat', sans-serif; ;
+    font-size: 4.5rem;
+    font-weight: 200;
+}
+
+.quotes{
+    
+    margin-left: 8rem;
+    width: 16rem;
+}
+.quotes img{
+    height: 2rem;
+    
 }
 
 .appendix{
@@ -82,10 +105,17 @@ img{
     border-radius: 0 10px 10px 0;
 }
 
-.appendix h2{
+
+
+.bloglist{
+  margin-left: .5rem;
+}
+
+.bloglist h2{
     font-size: 1.5rem;
     font-weight: 200;
 }
+
 .container{
     display: block;
     padding: .5rem 2rem;
@@ -178,6 +208,11 @@ img{
 .footer{
     background-color: var(--background-main-color);
     overflow:auto;
+    
+    display: block;
+    bottom: 0;
+    
+    margin: auto;
     
 }
 
